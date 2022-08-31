@@ -1,0 +1,64 @@
+* {
+  cursor: url('rocket.svg'), auto;
+  color: azure;
+}
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+} 
+#navvy {
+  padding: 0;
+}
+#overlay {
+  position: relative;
+}
+body {
+  color: azure;
+}
+#john {
+  width:100%;
+  border: 3px solid #80318f;
+  border-radius: 8%;
+  cursor: url(diamond.svg), auto;
+}
+#aboutme {
+  opacity: 0.0;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+#john:hover {
+  border-color: white;
+  border-radius: 8%;
+  box-shadow: 0.5em 0.5em 0.5em -0.4em white;;
+  transform: translateY(-0.25em);
+  transition: all 0.25s;
+}
+#john-image:hover + #aboutme {
+  opacity: 1.0;
+}
+#title {  
+  font-size: 3rem;
+  color: lightblue;
+  text-shadow: 5px 5px 30px blue;
+  font-family: 'Open Sans Condensed', sans-serif;
+  animation-name: repeat;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  font-weight: lighter;
+}
+
+@keyframes repeat {
+
+0% {color: lightblue; text-shadow: 5px 5px 30px lightblue;}
+20% {color: #45aaf2; text-shadow: 5px 5px 30px  #45aaf2;}
+40% {color: #2d98da; text-shadow: 5px 5px 30px  #2d98da;}
+60% {color: #4b7bec; text-shadow: 5px 5px 30px  #2d98da;}
+80% {color: #3867d6; text-shadow: 5px 5px 30px  #3867d6;}
+100% {color: lightblue; text-shadow: 5px 5px 30px  lightblue;}
+
+}
+
