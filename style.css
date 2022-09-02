@@ -40,6 +40,15 @@ body {
 #john-image:hover + #aboutme {
   opacity: 1.0;
 }
+#quote {
+  color: white;
+  font-family: 'Parisienne', serif;
+  font-size: 2rem;
+}
+#quote:hover {
+  /* text-shadow: 5px 5px 50px #978832; */
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
 #title {  
   font-size: 3rem;
   color: lightblue;

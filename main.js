@@ -1,4 +1,5 @@
 import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/0.143.0/three.module.js';
+
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
   65,
